@@ -19,7 +19,7 @@ def filter_users_by_age(age):
     for user in filtered_users:
         print(user)
 
-# Added filter_by_email functionality
+
 def filter_by_email(email):
     with open("users.json", "r") as file:
         users = json.load(file)
